@@ -553,7 +553,7 @@ Email: info@modern-remont.ru
 
       <div className="fixed bottom-6 right-6 flex flex-col gap-4 z-50">
         <a 
-          href="https://wa.me/79991234567" 
+          href="https://wa.me/79994947880" 
           target="_blank" 
           rel="noopener noreferrer"
           className="w-16 h-16 bg-[#25D366] hover:bg-[#20BA5A] text-white rounded-full shadow-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 group"
