@@ -3,6 +3,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { Label } from "@/components/ui/label";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import { Slider } from "@/components/ui/slider";
+import { Checkbox } from "@/components/ui/checkbox";
 import Icon from "@/components/ui/icon";
 
 const Index = () => {
@@ -11,6 +15,44 @@ const Index = () => {
     phone: "",
     message: ""
   });
+
+  const [calcData, setCalcData] = useState({
+    area: 60,
+    repairType: "standart",
+    rooms: 2,
+    smartHome: false,
+    furniture: false,
+    fastRepair: false
+  });
+
+  const calculatePrice = () => {
+    let basePrice = 0;
+    
+    switch(calcData.repairType) {
+      case "cosmetic":
+        basePrice = 8000;
+        break;
+      case "standart":
+        basePrice = 12000;
+        break;
+      case "premium":
+        basePrice = 18000;
+        break;
+    }
+
+    let totalPrice = basePrice * calcData.area;
+
+    if (calcData.smartHome) totalPrice += calcData.area * 8000;
+    if (calcData.furniture) totalPrice += 150000;
+    if (calcData.fastRepair) totalPrice += totalPrice * 0.15;
+
+    const discount = totalPrice * 0.15;
+    const finalPrice = totalPrice - discount;
+
+    return { totalPrice, discount, finalPrice };
+  };
+
+  const prices = calculatePrice();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
