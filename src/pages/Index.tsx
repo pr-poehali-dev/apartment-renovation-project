@@ -421,7 +421,7 @@ Email: info@modern-remont.ru
                   </div>
                   <div>
                     <div className="font-semibold">Телефон</div>
-                    <div className="text-muted-foreground">+7 (495) 789-01-23</div>
+                    <div className="text-muted-foreground">+7 (999) 494-78-80</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -430,7 +430,7 @@ Email: info@modern-remont.ru
                   </div>
                   <div>
                     <div className="font-semibold">Email</div>
-                    <div className="text-muted-foreground">info@modern-remont.ru</div>
+                    <div className="text-muted-foreground">remont@example.com</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -439,7 +439,7 @@ Email: info@modern-remont.ru
                   </div>
                   <div>
                     <div className="font-semibold">Адрес</div>
-                    <div className="text-muted-foreground">Москва, ул. Ленинская, д. 28</div>
+                    <div className="text-muted-foreground">Укажите ваш адрес</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
