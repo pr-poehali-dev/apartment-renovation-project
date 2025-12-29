@@ -130,8 +130,8 @@ const Index = () => {
 
 Скидка 15% при заказе до конца месяца!
 
-Контакты: +7 (495) 789-01-23
-Email: info@modern-remont.ru
+Контакты: +7 (999) 494-78-80
+Email: remont@example.com
     `;
     
     const blob = new Blob([priceText], { type: 'text/plain;charset=utf-8' });
@@ -175,7 +175,7 @@ Email: info@modern-remont.ru
 * Рассрочка без переплат до 12 месяцев
 * Точная смета после бесплатного замера
 
-Контакты: +7 (495) 789-01-23
+Контакты: +7 (999) 494-78-80
     `;
     
     const blob = new Blob([estimateText], { type: 'text/plain;charset=utf-8' });
@@ -201,7 +201,7 @@ Email: info@modern-remont.ru
             <a href="#contact" className="hover:text-accent transition-colors">Контакты</a>
             <Button className="bg-accent hover:bg-accent/90 text-white">
               <Icon name="Phone" className="mr-2" size={18} />
-              +7 (495) 789-01-23
+              +7 (999) 494-78-80
             </Button>
           </div>
           <Button variant="ghost" className="md:hidden">
@@ -439,7 +439,7 @@ Email: info@modern-remont.ru
                   </div>
                   <div>
                     <div className="font-semibold">Адрес</div>
-                    <div className="text-muted-foreground">Укажите ваш адрес</div>
+                    <div className="text-muted-foreground">Ростов-на-Дону, ул. Стачки, 34</div>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -538,9 +538,9 @@ Email: info@modern-remont.ru
             <div>
               <h3 className="font-semibold mb-4">Контакты</h3>
               <ul className="space-y-2 text-sm opacity-80">
-                <li>+7 (495) 789-01-23</li>
-                <li>info@modern-remont.ru</li>
-                <li>Москва, ул. Ленинская, 28</li>
+                <li>+7 (999) 494-78-80</li>
+                <li>remont@example.com</li>
+                <li>Ростов-на-Дону, ул. Стачки, 34</li>
                 <li>Пн-Вс: 9:00 - 21:00</li>
               </ul>
             </div>
