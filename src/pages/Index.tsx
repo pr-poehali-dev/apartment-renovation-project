@@ -572,7 +572,7 @@ Email: remont@example.com
         </a>
 
         <a 
-          href="https://t.me/yourcompany_bot" 
+          href="https://t.me/remontkvartirostovondon" 
           target="_blank" 
           rel="noopener noreferrer"
           className="w-16 h-16 bg-[#0088cc] hover:bg-[#0077b5] text-white rounded-full shadow-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 group"
